@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\xingxf03\\AI\\NLP\\chatbot\\get_started_examples\\rasa_nlu_demo\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\xingxf03\\AI\\NLP\\chatbot\\get_started_examples\\rasa_nlu_demo\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"
