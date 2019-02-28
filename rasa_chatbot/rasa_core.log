@@ -2,3 +2,60 @@ Rasa process starting
 Rasa Core server is up and running on http://localhost:5005
 Rasa process starting
 Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Rasa process starting
+Added 'nlp_mitie' to component cache. Key 'nlp_mitie-C:\Users\xingxf03\AI\NLP\chatbot\rasa_chatbot\data\total_word_feature_extractor.dat'.
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:311: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.20.2 when using version 0.19.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:311: UserWarning: Trying to unpickle estimator SVC from version 0.20.2 when using version 0.19.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:311: UserWarning: Trying to unpickle estimator GridSearchCV from version 0.20.2 when using version 0.19.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa process starting
+Added 'nlp_mitie' to component cache. Key 'nlp_mitie-C:\Users\xingxf03\AI\NLP\chatbot\rasa_chatbot\data\total_word_feature_extractor.dat'.
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Encountered an exception while running action 'action_search_consume'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Encountered an exception while running action 'action_search_consume'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.

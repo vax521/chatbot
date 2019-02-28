@@ -76,7 +76,7 @@ class ItemStore(object):
 if __name__ == '__main__':
     ivr_model = "projects/ivr_nlu/demo"
     chat_detection_model = "models/ivr/demo_chat_detection"
-    ivr_config = "ivr_chatbot.yml"
+    ivr_config = "hr_chatbot_config.yml"
     chat_detection_config = "chat_detection/mobile_chat_detection_model_config.json"
     store = ItemStore(ivr_model, chat_detection_model, ivr_config, chat_detection_config, enable_chat_detection=False)
     store.app.run('127.0.0.1', 1235)

@@ -1,0 +1,72 @@
+slots:
+  item:
+    type: text
+  time:
+    type: text
+
+
+intents:
+  - greet
+  - confirm
+  - goodbye
+  - thanks
+  - gongjijin_officetime
+  - gongjijin_get_file
+  - extraction_cycle
+  - gongjijin_jointnamecard
+  - deny
+
+
+entities:
+  - item
+  - time
+
+
+templates:
+  utter_greet:
+    - "您好!，我是机器人小易，很高兴为您服务。"
+    - "你好!，我是小易，可以回答您公积金相关的问题。"
+    - "hi!，人家是小易，有什么可以帮您吗。"
+  utter_goodbye:
+    - "再见，为您服务很开心"
+    - "Bye， 下次再见"
+  utter_default:
+    - "您说什么"
+    - "您能再说一遍吗"
+  utter_thanks:
+    - "不用谢"
+    - "我应该做的"
+    - "您开心我就开心"
+  utter_ask_morehelp:
+    - "还有什么能帮您吗"
+    - "您还想干什么"
+  utter_gongjijin_file:
+    - "亲爱的小伙伴儿，提取公积金可分为以下情况：
+    1、购北京房：只需网签号、密码、本人身份证原件、结婚证（夫妻双方共有房产）和提取申请表；
+    2、租房：本人身份证原件和提取申请表；
+    3、购外地房：发票、购房合同、贷款合同、完税凭证（二手房）、结婚证（夫妻双方共有房产）、身份证全部为原件和提取申请表。
+      具体可咨询王小蓉61046954哦！"
+    - "公积金可分为：1、购北京房只需网签号、密码、本人身份证原件、结婚证（夫妻双方共有房产）和提取申请表；2、租房：本人身份证原件和提取申请表；3、购外地房：发票、购房合同、贷款合同、完税凭证（二手房）、结婚证（夫妻双方共有房产）、身份证全部为原件和提取申请表。具体可咨询王小蓉61046954。"
+  utter_gongjijin_officetime:
+    - "亲爱的小伙伴儿，每月10号前将相关办理资料递交人力资源部福利管理岗，切记要在月底前办理完毕哦。"
+    - "每月10号前将相关办理资料递交人力资源部福利管理岗，月底前办理完毕。"
+  utter_extraction_cycle:
+    - "亲爱的小伙伴儿，
+      1、租房提取公积金以季度为周期，每年到期后需要重新办理噢。
+      2、购房提取公积金可按个人意愿按“月度”“季度”“半年度”“年度”约定，到每个约定周期公积金会自动打入本人公积金联名卡账户上哟~"
+  utter_gongjijin_jointnamecard:
+    - "您带上身份证原件去交行、工行、招行、建行进行办理住房公积金联名卡就可以了噢！"
+
+
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_default
+  - utter_thanks
+  - utter_ask_morehelp
+  - utter_gongjijin_file
+  - utter_gongjijin_officetime
+  - utter_extraction_cycle
+  - utter_gongjijin_jointnamecard
+  - bot.ActionSearchConsume

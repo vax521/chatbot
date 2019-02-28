@@ -26,7 +26,7 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.keras_policy.KerasPolicy"
   ],
-  "trained_at": "20190228-122649",
+  "trained_at": "20190228-162101",
   "rasa_core": "0.13.2",
   "tensorflow": "1.10.0",
   "sklearn": "0.19.1"

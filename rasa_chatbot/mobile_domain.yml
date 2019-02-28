@@ -64,4 +64,5 @@ actions:
   - utter_ask_time
   - utter_ask_package
   - utter_ack_management
+  - action_search_consume
   - bot.ActionSearchConsume

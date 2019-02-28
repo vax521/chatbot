@@ -109,6 +109,8 @@ python bot.py online_train
 Run command below:
 ```bash
 python bot.py run
+或者
+python -m rasa_core.run -d projects/dialogue -u projects/ivr_nlu/demo
 ```
 Example1:
 ```
