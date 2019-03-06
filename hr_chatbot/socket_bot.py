@@ -2,6 +2,8 @@ from rasa_core.channels.socketio import SocketIOInput
 from rasa_core.agent import Agent
 from rasa_core.interpreter import RasaNLUInterpreter
 
+# 与web_ui.html配合，前后端进行对话
+
 # load your trained agent
 agent = Agent.load("projects/dialogue", interpreter=RasaNLUInterpreter("projects/hr_nlu/demo"))
 
