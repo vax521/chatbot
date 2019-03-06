@@ -154,3 +154,56 @@ b'\xe4\xbb\x80\xe4\xb9\x88\xe6\x98\xaf\xe8\x81\x94\xe5\x90\x8d\xe5\x8d\xa1\xef\x
 C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
   if diff:
 
+Rasa process starting
+Added 'nlp_mitie' to component cache. Key 'nlp_mitie-C:\Users\xingxf03\AI\NLP\chatbot\hr_chatbot\data\total_word_feature_extractor.dat'.
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator SVC from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator GridSearchCV from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_mitie' to component cache. Key 'nlp_mitie-C:\Users\xingxf03\AI\NLP\chatbot\hr_chatbot\data\total_word_feature_extractor.dat'.
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator SVC from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator GridSearchCV from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_mitie' to component cache. Key 'nlp_mitie-C:\Users\xingxf03\AI\NLP\chatbot\hr_chatbot\data\total_word_feature_extractor.dat'.
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator SVC from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator GridSearchCV from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+Rasa process starting
+Added 'nlp_mitie' to component cache. Key 'nlp_mitie-C:\Users\xingxf03\AI\NLP\chatbot\hr_chatbot\data\total_word_feature_extractor.dat'.
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator SVC from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator GridSearchCV from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+b'hi'
+b'hi'
+b'hello'
+b'\xe5\x8a\x9e\xe7\x90\x86\xe5\x85\xac\xe7\xa7\xaf\xe9\x87\x91'
+b'\xe5\x8a\x9e\xe7\x90\x86\xe5\x85\xac\xe7\xa7\xaf\xe9\x87\x91'
+b'/stop'
+b'\xe6\x88\x91\xe5\x8f\x88\xe5\x9b\x9e\xe6\x9d\xa5\xe4\xba\x86'
