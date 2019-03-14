@@ -115,7 +115,6 @@ def train_nlu():
     return model_directory
 
 
-
 def run(serve_forever=True):
     agent = Agent.load("projects/dialogue", interpreter=RasaNLUInterpreter("projects/ivr_nlu/demo"))
     # input_channel = InputChannel()

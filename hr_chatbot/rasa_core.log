@@ -207,3 +207,44 @@ b'\xe5\x8a\x9e\xe7\x90\x86\xe5\x85\xac\xe7\xa7\xaf\xe9\x87\x91'
 b'\xe5\x8a\x9e\xe7\x90\x86\xe5\x85\xac\xe7\xa7\xaf\xe9\x87\x91'
 b'/stop'
 b'\xe6\x88\x91\xe5\x8f\x88\xe5\x9b\x9e\xe6\x9d\xa5\xe4\xba\x86'
+Rasa process starting
+Added 'nlp_mitie' to component cache. Key 'nlp_mitie-C:\Users\xingxf03\AI\NLP\chatbot\hr_chatbot\data\total_word_feature_extractor.dat'.
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator SVC from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator GridSearchCV from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_mitie' to component cache. Key 'nlp_mitie-C:\Users\xingxf03\AI\NLP\chatbot\hr_chatbot\data\total_word_feature_extractor.dat'.
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator SVC from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator GridSearchCV from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Rasa process starting
+Added 'nlp_mitie' to component cache. Key 'nlp_mitie-C:\Users\xingxf03\AI\NLP\chatbot\hr_chatbot\data\total_word_feature_extractor.dat'.
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator SVC from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+C:\Users\xingxf03\AppData\Roaming\Python\Python36\site-packages\sklearn\base.py:251: UserWarning: Trying to unpickle estimator GridSearchCV from version 0.19.1 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+
+b'\xe4\xbd\xa0\xe5\xa5\xbd'
+b'\xe6\x80\x8e\xe4\xb9\x88\xe6\x8f\x90\xe5\x8f\x96\xe5\x85\xac\xe7\xa7\xaf\xe9\x87\x91'
+b'\xe6\x8f\x90\xe5\x8f\x96\xe5\x85\xac\xe7\xa7\xaf\xe9\x87\x91\xe9\x9c\x80\xe8\xa6\x81\xe5\xb8\xa6\xe8\xba\xab\xe4\xbb\xbd\xe8\xaf\x81\xe5\x90\x97\xef\xbc\x9f'
+b'\xe5\x85\xac\xe7\xa7\xaf\xe9\x87\x91\xe6\x80\x8e\xe4\xb9\x88\xe6\x8f\x90\xe5\x8f\x96'
+b'\xe5\x85\xac\xe7\xa7\xaf\xe9\x87\x91'

@@ -10,3 +10,33 @@ Rasa process starting
 Rasa process starting
 Rasa process starting
 Rasa process starting
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+b'hi'
+b'im looking for a restaurant'
+b'asian oriental'
+b'i am in the east part of town right'
+b'5'
+b'price'
+b'yes id like an expensive restaurant'
+b'goodbye'
+Encountered an exception while running action 'action_search_restaurants'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_suggest'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+b'breath can i get a restaurant serving chinese food'
+b'four'
+b'expensive'
+b'im looking for [romanian](cuisine) food in the [expensive](price) price range'
+b'people:4'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+b'hello bot'

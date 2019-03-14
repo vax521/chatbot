@@ -20,3 +20,6 @@ get_started_examples/rasa_core_demo/models/current/nlu/checkpoint
 *.log
 get_started_examples/rasa-demo/
 frontend/rasa-webchat/
+official_examples/restaurantbot/models/
+*/projects/
+*.pyc
