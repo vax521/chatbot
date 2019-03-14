@@ -10,12 +10,15 @@ actions:
 - utter_gongjijin_officetime
 - utter_extraction_cycle
 - utter_gongjijin_jointnamecard
+- utter_ask_leaveType
+- utter_info_leave
 - bot.ActionSearchConsume
 config:
   store_entities_as_slots: true
 entities:
 - item
 - time
+- leave_type
 forms: []
 intents:
 - greet:
@@ -34,10 +37,16 @@ intents:
     use_entities: true
 - gongjijin_jointnamecard:
     use_entities: true
+- ask_for_leave:
+    use_entities: true
 - deny:
     use_entities: true
 slots:
   item:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  leave_type:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
@@ -46,6 +55,13 @@ slots:
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
+  utter_ask_leaveType:
+  - buttons:
+    - payload: leave_type
+      title: 病假
+    - payload: leave_type
+      title: 事假
+    text: 请哪种假？
   utter_ask_morehelp:
   - text: 还有什么能帮您吗
   - text: 您还想干什么
@@ -70,6 +86,8 @@ templates:
   - text: 您好!，我是机器人小易，很高兴为您服务。
   - text: 你好!，我是小易，可以回答您公积金相关的问题。
   - text: hi!，人家是小易，有什么可以帮您吗。
+  utter_info_leave:
+  - text: 您的{leave_type}请假工单已生成！
   utter_thanks:
   - text: 不用谢
   - text: 我应该做的

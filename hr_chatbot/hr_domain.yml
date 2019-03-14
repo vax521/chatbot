@@ -64,9 +64,9 @@ templates:
     - text: "请哪种假？"
       buttons:
       - title: "病假"
-        payload: "leave_type"
+        payload: "病假"
       - title: "事假"
-        payload: "leave_type"
+        payload: "病假"
   utter_info_leave:
       - "您的{leave_type}请假工单已生成！"
 

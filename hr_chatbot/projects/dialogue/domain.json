@@ -1,5 +1,6 @@
 {
   "states": [
+    "intent_ask_for_leave",
     "intent_confirm",
     "intent_deny",
     "intent_extraction_cycle",
@@ -11,7 +12,9 @@
     "intent_thanks",
     "entity_item",
     "entity_time",
+    "entity_leave_type",
     "slot_item_0",
+    "slot_leave_type_0",
     "slot_time_0",
     "prev_action_listen",
     "prev_action_restart",
@@ -29,6 +32,8 @@
     "prev_utter_gongjijin_officetime",
     "prev_utter_extraction_cycle",
     "prev_utter_gongjijin_jointnamecard",
+    "prev_utter_ask_leaveType",
+    "prev_utter_info_leave",
     "prev_bot.ActionSearchConsume"
   ]
 }

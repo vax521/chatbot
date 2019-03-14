@@ -33,14 +33,13 @@ python -m bot_before.train-dialogue
 #### 测试
 ```
 1. 直接测试
-python -m rasa_core.run -d projects/dialogue -u projects/hr_nlu/demo
+  python -m rasa_core.run -d projects/dialogue -u projects/hr_nlu/demo
 
-2. chatroom测试
-2.1 
+2. chatroom测试 
   cd C:\Users\xingxf03\AI\NLP\chatbot\hr_chatbot\chatroom
   yarn serve
 
   cd C:\Users\xingxf03\AI\NLP\chatbot\hr_chatbot
-  python -m rasa_utils.bot -d projects/dialogue -u projects/hr_nlu/demo
+  python -m  utils.bot -d projects/dialogue -u projects/hr_nlu/demo
 
 ```

@@ -3,7 +3,8 @@
     "action_listen": {
       "slots": [
         "time",
-        "item"
+        "item",
+        "leave_type"
       ]
     },
     "utter_goodbye": {
@@ -26,8 +27,8 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.keras_policy.KerasPolicy"
   ],
-  "trained_at": "20190304-143302",
+  "trained_at": "20190314-175656",
   "rasa_core": "0.13.2",
   "tensorflow": "1.10.0",
-  "sklearn": "0.19.1"
+  "sklearn": "0.20.2"
 }
