@@ -350,6 +350,94 @@
         "text": "联名卡怎么办理"
       },
       {
+        "intent": "ask_for_leave",
+        "text": "我想请假"
+      },
+      {
+        "intent": "ask_for_leave",
+        "text": "怎么请假？"
+      },
+      {
+        "intent": "ask_for_leave",
+        "text": "请假怎么请？"
+      },
+      {
+        "intent": "ask_for_leave",
+        "text": "我想请几天假"
+      },
+      {
+        "intent": "ask_for_leave",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "事假",
+            "entity": "leave_type"
+          }
+        ],
+        "text": "我想请事假"
+      },
+      {
+        "intent": "ask_for_leave",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "事假",
+            "entity": "leave_type"
+          }
+        ],
+        "text": "帮我请个事假"
+      },
+      {
+        "intent": "ask_for_leave",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "事假",
+            "entity": "leave_type"
+          }
+        ],
+        "text": "麻烦帮我请个事假"
+      },
+      {
+        "intent": "ask_for_leave",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "病假",
+            "entity": "leave_type"
+          }
+        ],
+        "text": "我想请个病假"
+      },
+      {
+        "intent": "ask_for_leave",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "病假",
+            "entity": "leave_type"
+          }
+        ],
+        "text": "帮我请个病假"
+      },
+      {
+        "intent": "ask_for_leave",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "病假",
+            "entity": "leave_type"
+          }
+        ],
+        "text": "请病假"
+      },
+      {
         "intent": "greet",
         "text": "你好"
       },

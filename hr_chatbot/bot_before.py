@@ -102,6 +102,7 @@ def train_dialogue(domain_file="hr_domain.yml",
     agent.persist(model_path)
     return agent
 
+
 def train_nlu():
     from rasa_nlu.training_data import load_data
     from rasa_nlu.config import RasaNLUModelConfig

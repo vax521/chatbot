@@ -3,6 +3,8 @@ slots:
     type: text
   time:
     type: text
+  leave_type:
+    type: text
 
 
 intents:
@@ -14,12 +16,14 @@ intents:
   - gongjijin_get_file
   - extraction_cycle
   - gongjijin_jointnamecard
+  - ask_for_leave
   - deny
 
 
 entities:
   - item
   - time
+  - leave_type
 
 
 templates:
@@ -56,8 +60,15 @@ templates:
       2、购房提取公积金可按个人意愿按“月度”“季度”“半年度”“年度”约定，到每个约定周期公积金会自动打入本人公积金联名卡账户上哟~"
   utter_gongjijin_jointnamecard:
     - "您带上身份证原件去交行、工行、招行、建行进行办理住房公积金联名卡就可以了噢！"
-
-
+  utter_ask_leaveType:
+    - text: "请哪种假？"
+      buttons:
+      - title: "病假"
+        payload: "leave_type"
+      - title: "事假"
+        payload: "leave_type"
+  utter_info_leave:
+      - "您的{leave_type}请假工单已生成！"
 
 actions:
   - utter_greet
@@ -69,4 +80,6 @@ actions:
   - utter_gongjijin_officetime
   - utter_extraction_cycle
   - utter_gongjijin_jointnamecard
+  - utter_ask_leaveType
+  - utter_info_leave
   - bot.ActionSearchConsume
