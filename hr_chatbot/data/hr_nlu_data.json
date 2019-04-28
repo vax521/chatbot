@@ -1,0 +1,701 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "提取住房公积金",
+        "intent": "gongjijin_get_file",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "公积金",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "我想提取公积金",
+        "intent": "gongjijin_get_file",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "公积金",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+       "text": "怎么取公积金",
+        "intent": "gongjijin_get_file",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "公积金",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "公积金怎么领取",
+        "intent": "gongjijin_get_file",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "公积金",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "领取公积金所需要准备哪些资料",
+        "intent": "gongjijin_get_file",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "公积金",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "如何提取住房公积金",
+        "intent": "gongjijin_get_file",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "公积金",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "如何提取住房公积金",
+        "intent": "gongjijin_get_file",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "公积金",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "提取住房公积金的手续",
+        "intent": "gongjijin_get_file",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "公积金",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+       "text": "公积金申请需要什么资料",
+        "intent": "gongjijin_get_file",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "公积金",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+       "text": "公积金提取",
+        "intent": "gongjijin_get_file",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "公积金",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "提取公积金",
+        "intent": "gongjijin_get_file",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "公积金",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "什么时候可以办理公积金",
+        "intent": "gongjijin_officetime",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "公积金",
+            "entity": "item"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "时候",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "什么时间可以办理公积金",
+        "intent": "gongjijin_officetime",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "公积金",
+            "entity": "item"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "时间",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "公司办理住房公积金业务时间",
+       "intent": "gongjijin_officetime",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "公积金",
+            "entity": "item"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "时间",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "公司什么时候可以办理住房公积金",
+       "intent": "gongjijin_officetime",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "公积金",
+            "entity": "item"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "时间",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "提取周期是什么？",
+        "intent": "extraction_cycle",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "提取周期",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "什么是提取周期？",
+        "intent": "extraction_cycle",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "提取周期",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "怎么约定提取周期？",
+        "intent": "extraction_cycle",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "提取周期",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+         "text": "如何约定提取周期？",
+        "intent": "extraction_cycle",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "提取周期",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "提取周期怎么约定？",
+        "intent": "extraction_cycle",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "提取周期",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "提取周期如何约定？",
+        "intent": "extraction_cycle",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "提取周期",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "什么是住房公积金联名卡？",
+        "intent": "gongjijin_jointnamecard",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "联名卡",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "什么是联名卡？",
+        "intent": "gongjijin_jointnamecard",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "联名卡",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "联名卡是什么？",
+        "intent": "gongjijin_jointnamecard",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "联名卡",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "没有联名卡怎么办理？",
+        "intent": "gongjijin_jointnamecard",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "联名卡",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "如何办理公积金联名卡？",
+        "intent": "gongjijin_jointnamecard",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "联名卡",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "联名卡怎么办理",
+        "intent": "gongjijin_jointnamecard",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "联名卡",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "我想请假",
+        "intent": "ask_for_leave",
+        "entities": []
+      },
+      {
+        "text": "怎么请假？",
+        "intent": "ask_for_leave",
+        "entities": []
+      },
+      {
+        "text": "请假怎么请？",
+        "intent": "ask_for_leave",
+        "entities": []
+      },
+      {
+        "text": "我想请几天假",
+        "intent": "ask_for_leave",
+        "entities": []
+      },
+      {
+        "text": "我想请事假",
+        "intent": "ask_for_leave",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "事假",
+            "entity": "leave_type"
+          }
+        ]
+      },
+      {
+        "text": "帮我请个事假",
+        "intent": "ask_for_leave",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "事假",
+            "entity": "leave_type"
+          }
+        ]
+      },
+      {
+        "text": "麻烦帮我请个事假",
+        "intent": "ask_for_leave",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "事假",
+            "entity": "leave_type"
+          }
+        ]
+      },
+      {
+        "text": "我想请个病假",
+        "intent": "ask_for_leave",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "病假",
+            "entity": "leave_type"
+          }
+        ]
+      },
+      {
+        "text": "帮我请个病假",
+        "intent": "ask_for_leave",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "病假",
+            "entity": "leave_type"
+          }
+        ]
+      },
+      {
+        "text": "请病假",
+        "intent": "ask_for_leave",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "病假",
+            "entity": "leave_type"
+          }
+        ]
+      },
+      {
+        "text": "你好",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "您好",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "您好吗",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "嗨",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "你是谁",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "您是",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "你是哪个",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "喂",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "再见",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "拜拜",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "很高兴和你说话",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "嗯",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "好的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "行",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "可以的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "恩",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "中中",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "中",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "办吧",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "办理吧",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "行的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "没问题",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "谢谢",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢谢您",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢谢你",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "非常感谢",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢谢啊",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢了",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "不要",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不需要",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不要办",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不办",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "暂时不要了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不是",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "有问题",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "我再考虑考虑",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不好啦",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不行",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不可以的",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不中",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不可以",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "没了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "没有了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不用了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "暂时不用了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "好的没了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "好不用了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "=",
+        "intent": "unknown_intent",
+        "entities": []
+      },
+      {
+        "text": "&",
+        "intent": "unknown_intent",
+        "entities": []
+      },
+      {
+        "text": "吃饭",
+        "intent": "unknown_intent",
+        "entities": []
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": [{
+        "value": "消费",
+        "synonyms": ["话费", "钱"]
+      }]
+  }
+}
