@@ -22,6 +22,7 @@ get_started_examples/rasa_core_demo/models/current/nlu/checkpoint
 get_started_examples/rasa-demo/
 frontend/rasa-webchat/
 official_examples/restaurantbot/models/
+.idea/
 */projects/
 *.pyc
 *.xml
