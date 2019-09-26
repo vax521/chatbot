@@ -31,3 +31,4 @@ official_examples/restaurantbot/models/
 *.log
 .idea/misc.xml
 .idea/vcs.xml
+.idea/workspace.xml

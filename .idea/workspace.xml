@@ -1,38 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de40712d-0671-4950-bdb2-cde9e078c7ca" name="Default" comment="模型">
-      <change beforePath="" afterPath="$PROJECT_DIR$/get_started_examples/rasa-demo/actions.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/get_started_examples/rasa-demo/web_ui/ui.html" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/frontend/rasa-webchat/dev/src/index.html" afterPath="$PROJECT_DIR$/frontend/rasa-webchat/dev/src/index.html" />
-      <change beforePath="$PROJECT_DIR$/frontend/rasa-webchat/package-lock.json" afterPath="$PROJECT_DIR$/frontend/rasa-webchat/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/frontend/rasa-webchat/package.json" afterPath="$PROJECT_DIR$/frontend/rasa-webchat/package.json" />
-      <change beforePath="$PROJECT_DIR$/get_started_examples/rasa-demo/domain.yml" afterPath="$PROJECT_DIR$/get_started_examples/rasa-demo/domain.yml" />
-      <change beforePath="$PROJECT_DIR$/get_started_examples/rasa-demo/endpoints.yml" afterPath="$PROJECT_DIR$/get_started_examples/rasa-demo/endpoints.yml" />
-      <change beforePath="$PROJECT_DIR$/get_started_examples/rasa-demo/nlu_tensorflow.yml" afterPath="$PROJECT_DIR$/get_started_examples/rasa-demo/nlu_tensorflow.yml" />
-      <change beforePath="$PROJECT_DIR$/hr_chatbot/bot_before.py" afterPath="$PROJECT_DIR$/hr_chatbot/bot_before.py" />
-      <change beforePath="$PROJECT_DIR$/hr_chatbot/data/hr_nlu_data.json" afterPath="$PROJECT_DIR$/hr_chatbot/data/hr_nlu_data.json" />
-      <change beforePath="$PROJECT_DIR$/hr_chatbot/data/hr_story.md" afterPath="$PROJECT_DIR$/hr_chatbot/data/hr_story.md" />
-      <change beforePath="$PROJECT_DIR$/hr_chatbot/hr_domain.yml" afterPath="$PROJECT_DIR$/hr_chatbot/hr_domain.yml" />
-      <change beforePath="$PROJECT_DIR$/hr_chatbot/message_store.json" afterPath="$PROJECT_DIR$/hr_chatbot/message_store.json" />
-      <change beforePath="$PROJECT_DIR$/hr_chatbot/projects/dialogue/domain.json" afterPath="$PROJECT_DIR$/hr_chatbot/projects/dialogue/domain.json" />
-      <change beforePath="$PROJECT_DIR$/hr_chatbot/projects/dialogue/domain.yml" afterPath="$PROJECT_DIR$/hr_chatbot/projects/dialogue/domain.yml" />
-      <change beforePath="$PROJECT_DIR$/hr_chatbot/projects/dialogue/policy_0_MemoizationPolicy/memorized_turns.json" afterPath="$PROJECT_DIR$/hr_chatbot/projects/dialogue/policy_0_MemoizationPolicy/memorized_turns.json" />
-      <change beforePath="$PROJECT_DIR$/hr_chatbot/projects/dialogue/policy_1_KerasPolicy/featurizer.json" afterPath="$PROJECT_DIR$/hr_chatbot/projects/dialogue/policy_1_KerasPolicy/featurizer.json" />
-      <change beforePath="$PROJECT_DIR$/hr_chatbot/projects/dialogue/policy_1_KerasPolicy/keras_model.h5" afterPath="$PROJECT_DIR$/hr_chatbot/projects/dialogue/policy_1_KerasPolicy/keras_model.h5" />
-      <change beforePath="$PROJECT_DIR$/hr_chatbot/projects/dialogue/policy_metadata.json" afterPath="$PROJECT_DIR$/hr_chatbot/projects/dialogue/policy_metadata.json" />
-      <change beforePath="$PROJECT_DIR$/hr_chatbot/projects/hr_nlu/demo/entity_extractor.dat" afterPath="$PROJECT_DIR$/hr_chatbot/projects/hr_nlu/demo/entity_extractor.dat" />
-      <change beforePath="$PROJECT_DIR$/hr_chatbot/projects/hr_nlu/demo/entity_synonyms.json" afterPath="$PROJECT_DIR$/hr_chatbot/projects/hr_nlu/demo/entity_synonyms.json" />
-      <change beforePath="$PROJECT_DIR$/hr_chatbot/projects/hr_nlu/demo/intent_classifier_sklearn.pkl" afterPath="$PROJECT_DIR$/hr_chatbot/projects/hr_nlu/demo/intent_classifier_sklearn.pkl" />
-      <change beforePath="$PROJECT_DIR$/hr_chatbot/projects/hr_nlu/demo/metadata.json" afterPath="$PROJECT_DIR$/hr_chatbot/projects/hr_nlu/demo/metadata.json" />
-      <change beforePath="$PROJECT_DIR$/hr_chatbot/projects/hr_nlu/demo/training_data.json" afterPath="$PROJECT_DIR$/hr_chatbot/projects/hr_nlu/demo/training_data.json" />
-      <change beforePath="$PROJECT_DIR$/hr_chatbot/rasa_core.log" afterPath="$PROJECT_DIR$/hr_chatbot/rasa_core.log" />
+    <list default="true" id="de40712d-0671-4950-bdb2-cde9e078c7ca" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,75 +28,15 @@
       </file>
     </leaf>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>inform</find>
-      <find>utter_ask_leaveBeginDate</find>
-      <find>request_management</find>
-      <find>inform_package</find>
-      <find>request_search</find>
-      <find>inform_time</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/hr_chatbot/.gitignore" />
-        <option value="$PROJECT_DIR$/hr_chatbot/socket_bot.py" />
-        <option value="$PROJECT_DIR$/hr_chatbot/utils/bot.py" />
-        <option value="$PROJECT_DIR$/hr_chatbot/bot_before.py" />
-        <option value="$PROJECT_DIR$/hr_chatbot/data/hr_nlu_data.json" />
-        <option value="$PROJECT_DIR$/rasa_chatbot/mobile_domain.yml" />
-        <option value="$PROJECT_DIR$/hr_chatbot/hr_domain.yml" />
-        <option value="$PROJECT_DIR$/hr_chatbot/web_ui.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-      </list>
-    </option>
-  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/frontend/rasa-webchat/node_modules" />
-    <handled-path value="$PROJECT_DIR$/hr_chatbot/chatroom/node_modules" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="89" />
-    <option name="y" value="15" />
-    <option name="width" value="1277" />
-    <option name="height" value="878" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Python</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>PyCompatibilityInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -158,17 +69,6 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/PyScript/paddle_demo" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\xingxf03\AI\NLP\chatbot" />
-    </key>
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -181,59 +81,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.socket_bot">
-    <configuration name="web_ui.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/chatbot/web_ui.html" />
-    <configuration name="bot_before" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hr_chatbot" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="chatbot" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hr_chatbot/bot_before.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="socket_bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hr_chatbot" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="chatbot" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hr_chatbot/socket_bot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.web_ui.html" />
-      <item index="1" class="java.lang.String" itemvalue="Python.socket_bot" />
-      <item index="2" class="java.lang.String" itemvalue="Python.bot_before" />
-    </list>
-    <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.socket_bot" />
-        <item index="1" class="java.lang.String" itemvalue="Python.bot_before" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.web_ui.html" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -241,21 +88,6 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="de40712d-0671-4950-bdb2-cde9e078c7ca" name="Default" comment="" />
-      <created>1552557602260</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1552557602260</updated>
-    </task>
-    <task id="LOCAL-00001" summary="变更：增加数据文件；">
-      <created>1556443804769</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1556443804769</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -263,7 +95,7 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5449438" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33988765" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16011237" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2746781" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -282,16 +114,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="变更：增加数据文件；" />
-    <option name="LAST_COMMIT_MESSAGE" value="变更：增加数据文件；" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
