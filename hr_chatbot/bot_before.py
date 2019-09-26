@@ -132,25 +132,26 @@ def run(serve_forever=True):
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level="INFO")
-
-    parser = argparse.ArgumentParser(
-        description="starts the bot")
-
-    parser.add_argument(
-        "task",
-        choices=["train-nlu", "train-dialogue", "run", "online_train"],
-        help="what the bot should do - e.g. run or train?")
-    task = parser.parse_args().task
-
-    # decide what to do based on first parameter of the script
-    if task == "train-nlu":
-        train_nlu()
-    elif task == "train-dialogue":
-        train_dialogue()
-    elif task == "run":
-        run()
-    else:
-        warnings.warn("Need to pass either 'train-nlu', 'train-dialogue' or "
-                      "'run' to use the script.")
-        exit(1)
+    train_dialogue()
+    # logging.basicConfig(level="INFO")
+    #
+    # parser = argparse.ArgumentParser(
+    #     description="starts the bot")
+    #
+    # parser.add_argument(
+    #     "task",
+    #     choices=["train-nlu", "train-dialogue", "run", "online_train"],
+    #     help="what the bot should do - e.g. run or train?")
+    # task = parser.parse_args().task
+    #
+    # # decide what to do based on first parameter of the script
+    # if task == "train-nlu":
+    #     train_nlu()
+    # elif task == "train-dialogue":
+    #     train_dialogue()
+    # elif task == "run":
+    #     run()
+    # else:
+    #     warnings.warn("Need to pass either 'train-nlu', 'train-dialogue' or "
+    #                   "'run' to use the script.")
+    #     exit(1)

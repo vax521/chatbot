@@ -363,6 +363,15 @@
         "text": "请假怎么请？",
         "intent": "ask_for_leave",
         "entities": []
+      },{
+        "text": "我明天想请个假？",
+        "intent": "ask_for_leave",
+        "entities": [{
+            "start": 1,
+            "end": 3,
+            "value": "明天",
+            "entity": "date"
+          }]
       },
       {
         "text": "我想请几天假",
@@ -438,6 +447,28 @@
             "end": 3,
             "value": "病假",
             "entity": "leave_type"
+          }
+        ]
+      }, {
+        "text": "明天",
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "明天",
+            "entity": "date"
+          }
+        ]
+      },{
+        "text": "一天",
+        "intent": "confirm_leave_Days",
+        "entities": [
+          {
+            "start":0,
+            "end": 2,
+            "value": "明天",
+            "entity": "leave_days"
           }
         ]
       },

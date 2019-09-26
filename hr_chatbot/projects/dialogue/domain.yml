@@ -11,6 +11,8 @@ actions:
 - utter_extraction_cycle
 - utter_gongjijin_jointnamecard
 - utter_ask_leaveType
+- utter_ask_leaveBeginDate
+- utter_ask_leaveDays
 - utter_info_leave
 - bot.ActionSearchConsume
 config:
@@ -19,6 +21,8 @@ entities:
 - item
 - time
 - leave_type
+- date
+- leave_days
 forms: []
 intents:
 - greet:
@@ -39,10 +43,22 @@ intents:
     use_entities: true
 - ask_for_leave:
     use_entities: true
+- confirm_date:
+    use_entities: true
+- confirm_leave_Days:
+    use_entities: true
 - deny:
     use_entities: true
 slots:
+  date:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   item:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  leave_days:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
@@ -55,11 +71,15 @@ slots:
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
+  utter_ask_leaveBeginDate:
+  - text: 哪天开始？
+  utter_ask_leaveDays:
+  - text: 请几天假？
   utter_ask_leaveType:
   - buttons:
-    - payload: leave_type
+    - payload: 病假
       title: 病假
-    - payload: leave_type
+    - payload: 病假
       title: 事假
     text: 请哪种假？
   utter_ask_morehelp:
@@ -84,10 +104,10 @@ templates:
   - text: Bye， 下次再见
   utter_greet:
   - text: 您好!，我是机器人小易，很高兴为您服务。
-  - text: 你好!，我是小易，可以回答您公积金相关的问题。
-  - text: hi!，人家是小易，有什么可以帮您吗。
+  - text: 你好!，我是小易，可以回答您HR领域的相关的问题。
+  - text: hi!，人家是小易，有什么可以帮您吗？
   utter_info_leave:
-  - text: 您的{leave_type}请假工单已生成！
+  - text: 您的请假工单已生成！
   utter_thanks:
   - text: 不用谢
   - text: 我应该做的

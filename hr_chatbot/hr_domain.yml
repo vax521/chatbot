@@ -5,6 +5,10 @@ slots:
     type: text
   leave_type:
     type: text
+  date:
+    type: text
+  leave_days:
+    type: text
 
 
 intents:
@@ -17,6 +21,8 @@ intents:
   - extraction_cycle
   - gongjijin_jointnamecard
   - ask_for_leave
+  - confirm_date
+  - confirm_leave_Days
   - deny
 
 
@@ -24,13 +30,16 @@ entities:
   - item
   - time
   - leave_type
+  - date
+  - leave_days
+
 
 
 templates:
   utter_greet:
     - "您好!，我是机器人小易，很高兴为您服务。"
-    - "你好!，我是小易，可以回答您公积金相关的问题。"
-    - "hi!，人家是小易，有什么可以帮您吗。"
+    - "你好!，我是小易，可以回答您HR领域的相关的问题。"
+    - "hi!，人家是小易，有什么可以帮您吗？"
   utter_goodbye:
     - "再见，为您服务很开心"
     - "Bye， 下次再见"
@@ -67,8 +76,12 @@ templates:
         payload: "病假"
       - title: "事假"
         payload: "病假"
+  utter_ask_leaveBeginDate:
+    - text: "哪天开始？"
+  utter_ask_leaveDays:
+    - text: "请几天假？"
   utter_info_leave:
-      - "您的{leave_type}请假工单已生成！"
+      - "您的请假工单已生成！"
 
 actions:
   - utter_greet
@@ -81,5 +94,8 @@ actions:
   - utter_extraction_cycle
   - utter_gongjijin_jointnamecard
   - utter_ask_leaveType
+  - utter_ask_leaveBeginDate
+  - utter_ask_leaveDays
   - utter_info_leave
+
   - bot.ActionSearchConsume

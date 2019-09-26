@@ -6,6 +6,7 @@ bin-release/
 
 # Other files and folders
 .settings/
+.idea/
 
 # Executables
 *.swf
@@ -23,3 +24,10 @@ frontend/rasa-webchat/
 official_examples/restaurantbot/models/
 */projects/
 *.pyc
+*.xml
+.idea/workspace.xml
+*.xml
+*.log
+*.log
+.idea/misc.xml
+.idea/vcs.xml

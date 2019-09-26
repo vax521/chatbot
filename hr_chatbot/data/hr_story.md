@@ -128,36 +128,18 @@
 * deny
     - utter_greet
     - export
-# 请假相关story
-## Generated Leave Story  1
-* ask_for_leave{"leave_type": "病假"}
-    - utter_info_leave
-* thanks
-    - utter_thanks
-    - export
 
-## Generated Leave Story  2
-* ask_for_leave
-    - utter_ask_leaveType
-*   - utter_info_leave
-* thanks
-    - utter_thanks
-    - export
+# 请假相关story
 ## Generated Leave Story 3
 * greet
     - utter_greet
-* ask_for_leave{"leave_type": "病假"}
+* ask_for_leave
+    - utter_ask_leaveBeginDate
+* confirm_date
+    - utter_ask_leaveDays
+* confirm_leave_Days
     - utter_info_leave
 * thanks
     - utter_thanks
     - export
 
-## Generated Leave Story  4
-* greet
-    - utter_greet
-* ask_for_leave
-    - utter_ask_leaveType
-*   - utter_info_leave
-* thanks
-    - utter_thanks
-    - export
